@@ -1,45 +1,33 @@
 baseURL = 'https://example.org/HT-Blog/'
 languageCode = 'en-us'
 title = 'HamricTriio'
-theme = "hugo-theme-ithem"
-# Parameters
+theme = "hugo-theme-itheme"
+defaultContentLanguage = "en" # current only supported 'en' and 'zh-hans', see the 'i18n' folder
 [params]
-    subtitle = "HT-Blog"
-    dateFmt = "02.01.2006 15:04"
-
-# Header
-[menu]
-  [[menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts/"
-        weight = 1 
-
-  [[menu.main]]
-        identifier = "categories"
-        name = "Categories"
-        url = "/categories/"
-        weight = 2 
-
-  [[menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "/tags/"
-        weight = 3
-
-# Footer
-  [[menu.footer]]
-        name = "Github"
-        url = "https://github.com/example"
-        weight = 1 
-
-    [[menu.footer]]
-        name = "Mastodon"
-        url = "https://example.com/@user"
-        weight = 2 
-
-    [[menu.footer]]
-        name = "Imprint"
-        url = "/imprint"
-        weight = 3 
-
+  defaultCover = 'https://example.com/cover.jpg' # default cover image for post not setting cover
+  email = 'floyd.li@outlook.com' # the email address display in the footer
+  [params.algolia] # Algolia search configuration
+    enabled = true # enable Algolia search
+    appId = 'YOUR_KEY' # appid for Algolia search
+    appKey = 'YOUR_APP_KEY' # appkey for Algolia search
+    searchIndex = 'YOUR_INDEX' # index for Algolia search
+  [[params.css]] # custom css stylesheet, you can add one or more, url is relative in 'static' folder
+    url = 'css1.css'
+  [[params.css]]
+    url = 'css2.css'
+  [[params.js]] # custom javascript, you can add one or more, url is relative in 'static' folder
+    url = 'js1.js'
+  [[params.js]]
+    url = 'js2.js'
+  [[params.socialMedia]] # custom social links display in the footer, you can add one or more
+    name = 'Github'
+    url = 'https://github.com/floyd-li'
+  [[params.socialMedia]]
+    name = 'Twitter'
+    url = 'https://twitter.com/some-one'
+  [[params.blogroll]] # blogroll links display in the footer, you can add one or more
+    name = 'Apple'
+    url = 'https://Apple.com/'
+  [[params.blogroll]]
+    name = 'Google'
+    url = 'https://Google.com/'
