@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/HamricTriio/HT-Blog.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[submodule "themes/hugo-theme-itheme"]
+	url = https://github.com/floyd-li/hugo-theme-itheme.git
+	active = true

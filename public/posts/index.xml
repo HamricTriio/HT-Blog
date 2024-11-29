@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HamricTriio</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on HamricTriio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M&#39;s First Post</title>
+      <link>https://example.org/posts/ms-first-post/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/ms-first-post/</guid>
+      <description>&lt;p&gt;Happy Thanksgiving! As of today, (work in progress) HamricTriio: Access Edition has entered entered into an open-testing phase of development. Accessibility testing will be our next step, as the theme has been setup as close to HTML as possible, while still syncing with a notes application, called Obsidian. Posts from M, L, and A, are possible, along with shared posts from HamricTriio. There is also a Main version in the works of this site, designed for the visual users. The Current version, set to sync across both sites,  has been designed for the blind or visually impaired, making posts easily accessible to those using screen readers. In the mean time, stay tuned for more updates from HamricTriio. We have more coming!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>M&#39;s First Post</title>
+      <link>https://example.org/posts/testing/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/testing/</guid>
+      <description>&lt;p&gt;Testing the Obsidian to GitHub Script&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Created in 2023 by M:&#xA;![[HT (Challenge _5).png]]&#xA;![Alt](Images/&amp;lsquo;HT (Challenge _5) 1.png&amp;rsquo; “The Images shows H. Dot T., above the words, Hamric Treo. The Letters cut out into a Photo of a Cello being played with a bow.”)&#xA;![[]]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/posts/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/welcome/</guid>
+      <description>&lt;p&gt;This is your new &lt;em&gt;vault&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Make a note of something, [[create a link]], or try &lt;a href=&#34;https://help.obsidian.md/Plugins/Importer&#34;&gt;the Importer&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;When you&amp;rsquo;re ready, delete this note and make the vault your own.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
