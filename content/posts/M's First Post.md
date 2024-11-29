@@ -1,8 +1,8 @@
 ---
-title: 'M's First Post'
+title: 'M First Post'
 date: '2024-11-28T21:00:00+08:00'
 draft: false
-description: 'The First Post to the HamricTriio Blog"
+description: "The First Post to the HamricTriio Blog"
 author: 'M'
 cover: 'Images/'HT (Challenge _5).png'' // if not set cover, it will use the 'defaultCover' in site configuration
 tags: ["M", "Access-Edition", "HamricTriio"]
