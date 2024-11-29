@@ -1,10 +1,10 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://example.org/HT-Blog/'
 languageCode = 'en-us'
 title = 'HamricTriio'
-theme = "smol"
+theme = "hugo-theme-ithem"
 # Parameters
 [params]
-    subtitle = "HT-Access"
+    subtitle = "HT-Blog"
     dateFmt = "02.01.2006 15:04"
 
 # Header
